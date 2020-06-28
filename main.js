@@ -1,5 +1,5 @@
 window.onload = function(){
-  var time = 180;
+  var time = 300;
   var counter;
   var min = document.getElementById("min");
   var sec = document.getElementById("sec");
@@ -18,7 +18,7 @@ window.onload = function(){
   }
 
   reset.onclick = function() {
-    time = 180;
+    time = 300;
     sec.innerHTML = time % 60;
     min.innerHTML = Math.floor( time / 60 );
   }
